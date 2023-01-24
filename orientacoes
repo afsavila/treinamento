@@ -14,3 +14,4 @@ dotnet new sln
 
 dotnet new globaljson
 
+dotnet new mvc /// projeto básico
