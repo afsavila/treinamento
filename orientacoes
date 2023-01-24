@@ -8,3 +8,4 @@ git commit -m "Label com descrição do arquivo"
 
 git push // para conectar e enviar os arquivos para o git
 
+git commit 
