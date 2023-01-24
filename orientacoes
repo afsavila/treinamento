@@ -1,3 +1,10 @@
 git clone https://github.com/afsavila/treinamento.git /// para clonar o diretório
 
 git status // para mostrar o andamento do git
+
+git add . // git add ponto para adicionar tudo ao repositorio
+
+git commit -m "Label com descrição do arquivo"
+
+git push // para conectar e enviar os arquivos para o git
+
