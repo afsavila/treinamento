@@ -2,10 +2,10 @@
 
 
 <form asp-action="Create">
-   Título da aplicação <br>
+   @Html.DisplayNameFor(Model=>Model.Titulo)<br>
     <input asp-for="Titulo"> <br><br>
   
-    Descrição do post<br>
+   @Html.DisplayNameFor(Model=>Model.Descricao)<br>
     <input asp-for ="Descricao"><br><br>
     
     <textarea >Descrição</textarea>
