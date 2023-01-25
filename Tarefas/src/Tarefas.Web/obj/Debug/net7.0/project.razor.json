@@ -18675,6 +18675,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/decom/treinamento/treinamento/Tarefas/src/Tarefas.Web/Views/Tarefas/Index.cshtml",
+      "TargetPath": "Views\\Tarefas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/decom/treinamento/treinamento/Tarefas/src/Tarefas.Web/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
