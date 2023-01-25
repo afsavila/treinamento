@@ -3,19 +3,19 @@ using System;
 using System.Data.SQLite;
 using System.IO;
 using System.Linq;
-using Tarefas.DTO;
+//using Tarefas.DTO;
 
 
 namespace Tarefas.DAO{
     public class TarefaDAO
     {
-        public string DataSourceFile => Evironment.CurrentDirectory+"TarefasDB.sqlite";
-        public SQLiteConnection Connection = new SQLiteConnection ("Datasourse="+DataSourceFile);
+        private string DataSourceFile => Environment.CurrentDirectory+"TarefasDB.sqlite";
+        public SQLiteConnection Connection => new SQLiteConnection ("Datasourse="+DataSourceFile);
     }
 
     public TarefaDAO()
     {
-        if (!file.Exists(DatasourceFile))
+        if (!File.Exists(DataSourceFile))
         {
             CreateDatabase();
         }
@@ -23,12 +23,15 @@ namespace Tarefas.DAO{
 
     public void CreateDatabase()
     {
-        using (var con = Connection());
+        using (var con = Connection)
+        {
         con.Open();
-        con.Execute(@"create table Tarefas 
+        con.Execute(@"CREATE TABELE Tarefas
+                    ( 
                     id intereger primary key autoincrement, 
                     titulo varchar(100), 
-                    descricao varchar(100)")
+                    descricao varchar(100))");
+        }            
 
     }
 
