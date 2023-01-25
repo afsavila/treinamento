@@ -12,17 +12,17 @@
 
     @foreach (var item in Model)
     {       
-   <tr>
-    <th>@item.Id</th> 
-    <th>
-           @item.Titulo
-    </th>
-    <th>
-           @item.Descricao
-    </th>
-    <th>
-          <a asp-controller="Tarefa" asp-action="Details" asp-route-id="@item.Id">Detalhes </a>
-    </th>
-    </tr>
+        <tr>
+            <th>@item.Id</th> 
+            <th>
+            @item.Titulo
+            </th>
+            <th>
+            @item.Descricao
+            </th>
+            <th>
+            <a asp-controller="Tarefas" asp-action="Details" asp-route-id="@item.Id">Detalhes </a>
+            </th>
+        </tr>
     }
 </table>

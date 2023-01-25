@@ -18645,6 +18645,11 @@
   "RootNamespace": "Tarefas.Web",
   "Documents": [
     {
+      "FilePath": "/home/decom/treinamento/treinamento/Tarefas/src/Tarefas.Web/Views/Tarefas/Details.cshtml",
+      "TargetPath": "Views\\Tarefas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/decom/treinamento/treinamento/Tarefas/src/Tarefas.Web/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

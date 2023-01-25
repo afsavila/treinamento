@@ -1,0 +1,16 @@
+@model Tarefas.Web.Models.TarefaViewModel
+
+
+
+<form asp-action="Create">
+   @Html.DisplayNameFor(Model=>Model.Titulo)<br>
+    <input asp-for="Titulo" readonly > <br><br>
+  
+   @Html.DisplayNameFor(Model=>Model.Descricao)<br>
+    <input asp-for ="Descricao"  readonly ><br><br>
+    
+    <textarea readonly >Descrição</textarea>
+    <br>
+     
+
+</form>
