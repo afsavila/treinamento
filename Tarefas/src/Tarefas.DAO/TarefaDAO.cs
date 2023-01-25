@@ -13,7 +13,7 @@ namespace Tarefas.DAO{
         public SQLiteConnection Connection = new SQLiteConnection ("Datasourse="+DataSourceFile);
     }
 
-    public TarefaDAO
+    public TarefaDAO()
     {
         if (!file.Exists(DatasourceFile))
         {
